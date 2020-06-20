@@ -1,0 +1,44 @@
+#name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    font-size: 23px;
+    color: aliceblue;
+    animation: col 2s ease-in-out infinite;
+    font-weight: bold;
+}
+
+@keyframes col {
+    0% {
+        color: orange;
+    }
+    10% {
+        color: skyblue;
+    }
+    20% {
+        color: green;
+    }
+    30% {
+        color: lawngreen;
+    }
+    40% {
+        color: greenyellow;
+    }
+    50% {
+        color: burlywood;
+    }
+    60% {
+        color: goldenrod;
+    }
+    70% {
+        color: grey;
+    }
+    80% {
+        color: rgb(85, 187, 228);
+    }
+    90% {
+        color: rgb(32, 218, 32);
+    }
+    100% {
+        color: rgb(226, 112, 19);
+    }
+}
